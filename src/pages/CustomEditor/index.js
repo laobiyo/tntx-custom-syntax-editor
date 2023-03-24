@@ -153,7 +153,7 @@ class CustomEditor extends PureComponent {
 		if (returnFalse) return false;
 		const targetPath = e.path;
 		let flag = false;
-		targetPath.forEach(item => {
+		targetPath?.forEach(item => {
 			if (item.className) {
 				if (typeof (item.className) !== "string") return;
 				if (item.className.includes("CodeMirror-line") ||
