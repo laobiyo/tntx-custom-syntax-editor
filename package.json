@@ -1,6 +1,6 @@
 {
   "name": "@tntx/custom-syntax-editor",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "react自定义语法编辑器",
   "main": "lib/index.js",
   "scripts": {
